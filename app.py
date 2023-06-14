@@ -5,11 +5,11 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import openai
 
 # Set up OpenAI API key
-openai.api_key = "YOUR_API_KEY_HERE"
+openai.api_key = "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"
 
 # Set up Telegram bot
-bot = telegram.Bot(token="YOUR_BOT_TOKEN_HERE")
-updater = Updater(token="YOUR_BOT_TOKEN_HERE")
+bot = telegram.Bot(token="5968958120:AAFzTDdulQL3PGTTSKcpESf6btN-s-I-h2Q")
+updater = Updater(token="5968958120:AAFzTDdulQL3PGTTSKcpESf6btN-s-I-h2Q")
 dispatcher = updater.dispatcher
 
 # Define function to handle /start command
